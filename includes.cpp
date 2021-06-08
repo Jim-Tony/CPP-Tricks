@@ -14,7 +14,7 @@ int main(int argc, const char** argv) {
  
     vector<int> v1 = {2,1,5,4,8,9,6};
     vector<int> v2 = {1,4,9};
-    //Sort first to check
+    //Sort first to check or move each vector to a ordered set
     sort(begin(v1),end(v1));
     sort(begin(v2),end(v2));
     cout<<"In the vector\n";
