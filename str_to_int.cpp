@@ -8,11 +8,12 @@ using namespace std;
 class classTony {
 public:
     int myAtoi(string s) {
-        s.append("tony");
+        
+        if(s.size()==0) return 0; 
         stringstream ss;
         int x=0;
-        ss<<s;
-        ss>>x;
+        ss<<s; //Extracts only the first valid string without whitespaces
+        ss>>x; //Pushes into the integer only if the extracted stream is a integer type, if not 0 is assigned
         return x;
     }
 };
