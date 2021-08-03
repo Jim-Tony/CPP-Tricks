@@ -1,4 +1,4 @@
-// Calculating binary exponentiation using recursion takes O(N) time complexity
+// Calculating binary exponentiation using normal for-loop takes O(N) time complexity
 // Using the below method the time complexity reduces to O(log(n))
 
 #include<bits/stdc++.h>
