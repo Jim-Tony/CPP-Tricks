@@ -20,7 +20,8 @@ ll binaryexpo(ll x,ll y){
 int main(){
     ios_base::sync_with_stdio(false);
     cin.tie(NULL);
-    cout.tie(NULL);
     cout<<binaryexpo(2,5)<<"\n";
+    //If the base value is 2 u can calculate as 1<<n;
+    //Where 2^n = 1<<n
     return 0;
 }
