@@ -5,7 +5,7 @@ bool strLength(const string &str1,const string &str2){
 }
 int main(int argc, const char** argv) {
     vector<string> s {"hello","Welcome","Programmer","Competition"};
-    auto it  = max_element(begin(s),end(s),strLength);
+    auto it  = max_element(begin(s),end(s),strLength); //returns the iterator pointing the max element
     cout<<"The longest string in the vector of strings is\n"<<;
     cout<<*it<<endl;
     return 0;
